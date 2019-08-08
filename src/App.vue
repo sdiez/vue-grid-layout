@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <h1 style="text-align: center">Vue Grid Layout</h1>
+        <h1 style="text-align: center">Vue Grid Layout | Santi</h1>
         <!--<pre>{{ layout | json }}</pre>-->
         <div>
             <div class="layoutJSON">

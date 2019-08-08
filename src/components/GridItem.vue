@@ -421,7 +421,7 @@
                 this.style = style;
 
             },
-            handleResize: function (event) {
+          handleResize: function (event) {
                 if (this.static) return;
                 const position = getControlPosition(event);
                 // Get the current drag point from the event. This is used as the offset.
@@ -619,7 +619,7 @@
              * @return {Object} x and y in grid units.
              */
             // TODO check if this function needs change in order to support rtl.
-            calcXY(top, left) {
+          calcXY(top, left) {
                 const colWidth = this.calcColWidth();
 
                 // left = colWidth * x + margin * (x + 1)

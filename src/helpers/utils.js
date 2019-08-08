@@ -133,7 +133,7 @@ export function compactItem(compareWith: Layout, l: LayoutItem, verticalCompact:
  * @param  {Number} bounds Number of columns.
  */
 export function correctBounds(layout: Layout, bounds: {cols: number}): Layout {
-  const collidesWith = getStatics(layout);
+    const collidesWith = getStatics(layout);
   for (let i = 0, len = layout.length; i < len; i++) {
     const l = layout[i];
     // Overflows right
